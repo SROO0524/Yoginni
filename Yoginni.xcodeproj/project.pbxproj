@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		BA72C287268ED45100BC5C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C286268ED45100BC5C46 /* AppDelegate.swift */; };
 		BA72C289268ED45100BC5C46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C288268ED45100BC5C46 /* SceneDelegate.swift */; };
-		BA72C28B268ED45100BC5C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C28A268ED45100BC5C46 /* ViewController.swift */; };
-		BA72C28E268ED45100BC5C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA72C28C268ED45100BC5C46 /* Main.storyboard */; };
+		BA72C28B268ED45100BC5C46 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */; };
 		BA72C290268ED45100BC5C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA72C28F268ED45100BC5C46 /* Assets.xcassets */; };
 		BA72C293268ED45100BC5C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA72C291268ED45100BC5C46 /* LaunchScreen.storyboard */; };
 		BA72C29E268ED45100BC5C46 /* YoginniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C29D268ED45100BC5C46 /* YoginniTests.swift */; };
 		BA72C2A9268ED45100BC5C46 /* YoginniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2A8268ED45100BC5C46 /* YoginniUITests.swift */; };
+		BA72C2B7268EEE3200BC5C46 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */; };
+		BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */; };
+		BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,7 @@
 		BA72C283268ED45100BC5C46 /* Yoginni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoginni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72C286268ED45100BC5C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA72C288268ED45100BC5C46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA72C28A268ED45100BC5C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA72C28D268ED45100BC5C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		BA72C28F268ED45100BC5C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA72C292268ED45100BC5C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA72C294268ED45100BC5C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		BA72C2A4268ED45100BC5C46 /* YoginniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoginniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72C2A8268ED45100BC5C46 /* YoginniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoginniUITests.swift; sourceTree = "<group>"; };
 		BA72C2AA268ED45100BC5C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				BA72C286268ED45100BC5C46 /* AppDelegate.swift */,
 				BA72C288268ED45100BC5C46 /* SceneDelegate.swift */,
-				BA72C28A268ED45100BC5C46 /* ViewController.swift */,
-				BA72C28C268ED45100BC5C46 /* Main.storyboard */,
+				BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */,
+				BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */,
+				BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */,
+				BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */,
 				BA72C28F268ED45100BC5C46 /* Assets.xcassets */,
 				BA72C291268ED45100BC5C46 /* LaunchScreen.storyboard */,
 				BA72C294268ED45100BC5C46 /* Info.plist */,
@@ -233,7 +239,6 @@
 			files = (
 				BA72C293268ED45100BC5C46 /* LaunchScreen.storyboard in Resources */,
 				BA72C290268ED45100BC5C46 /* Assets.xcassets in Resources */,
-				BA72C28E268ED45100BC5C46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA72C28B268ED45100BC5C46 /* ViewController.swift in Sources */,
+				BA72C28B268ED45100BC5C46 /* CalendarViewController.swift in Sources */,
 				BA72C287268ED45100BC5C46 /* AppDelegate.swift in Sources */,
+				BA72C2B7268EEE3200BC5C46 /* MainTabBarController.swift in Sources */,
+				BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */,
+				BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */,
 				BA72C289268ED45100BC5C46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA72C28C268ED45100BC5C46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA72C28D268ED45100BC5C46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA72C291268ED45100BC5C46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
