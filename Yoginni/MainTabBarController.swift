@@ -15,7 +15,6 @@ class MainTabBarController: UITabBarController {
         UITabBar.appearance().barTintColor = .systemBackground
         tabBar.tintColor = .label
         tabbarSetup()
-        // Do any additional setup after loading the view.
     }
     
     

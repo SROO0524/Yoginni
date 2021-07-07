@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F526DEB081083C2C6F2B20 /* Pods_Yoginni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8EF3F29E4FA775CFC8E12 /* Pods_Yoginni.framework */; };
+		30F959B4F954CA46A89CF228 /* Pods_YoginniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4F1844A9253D9CA3161B25 /* Pods_YoginniTests.framework */; };
 		BA72C287268ED45100BC5C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C286268ED45100BC5C46 /* AppDelegate.swift */; };
 		BA72C289268ED45100BC5C46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C288268ED45100BC5C46 /* SceneDelegate.swift */; };
 		BA72C28B268ED45100BC5C46 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */; };
@@ -17,6 +19,7 @@
 		BA72C2B7268EEE3200BC5C46 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */; };
 		BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */; };
 		BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */; };
+		C258109D80843785ECF6BF2B /* Pods_Yoginni_YoginniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2FFB5C4F0981E5FF28DA69 /* Pods_Yoginni_YoginniUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AA2FF36F4F7B12ACD25B51 /* Pods-YoginniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoginniTests.debug.xcconfig"; path = "Target Support Files/Pods-YoginniTests/Pods-YoginniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58711A4F3D7B248A4BD0C76E /* Pods-Yoginni-YoginniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni-YoginniUITests.release.xcconfig"; path = "Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64503069C04BE5BE0CAD9FDB /* Pods-Yoginni-YoginniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni-YoginniUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		664D46361E15EE1E2B2905F1 /* Pods-Yoginni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni.release.xcconfig"; path = "Target Support Files/Pods-Yoginni/Pods-Yoginni.release.xcconfig"; sourceTree = "<group>"; };
+		6D2FFB5C4F0981E5FF28DA69 /* Pods_Yoginni_YoginniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yoginni_YoginniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F8EF3F29E4FA775CFC8E12 /* Pods_Yoginni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yoginni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4F1844A9253D9CA3161B25 /* Pods_YoginniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoginniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72C283268ED45100BC5C46 /* Yoginni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoginni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72C286268ED45100BC5C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA72C288268ED45100BC5C46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		C04A39FBA78A649400E6403E /* Pods-YoginniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoginniTests.release.xcconfig"; path = "Target Support Files/Pods-YoginniTests/Pods-YoginniTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35658A66DA6806F66CCE932 /* Pods-Yoginni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni.debug.xcconfig"; path = "Target Support Files/Pods-Yoginni/Pods-Yoginni.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F526DEB081083C2C6F2B20 /* Pods_Yoginni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F959B4F954CA46A89CF228 /* Pods_YoginniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C258109D80843785ECF6BF2B /* Pods_Yoginni_YoginniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE4FE3316AB7899054096C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D35658A66DA6806F66CCE932 /* Pods-Yoginni.debug.xcconfig */,
+				664D46361E15EE1E2B2905F1 /* Pods-Yoginni.release.xcconfig */,
+				64503069C04BE5BE0CAD9FDB /* Pods-Yoginni-YoginniUITests.debug.xcconfig */,
+				58711A4F3D7B248A4BD0C76E /* Pods-Yoginni-YoginniUITests.release.xcconfig */,
+				05AA2FF36F4F7B12ACD25B51 /* Pods-YoginniTests.debug.xcconfig */,
+				C04A39FBA78A649400E6403E /* Pods-YoginniTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7AA4A583104196FE29DD9870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80F8EF3F29E4FA775CFC8E12 /* Pods_Yoginni.framework */,
+				6D2FFB5C4F0981E5FF28DA69 /* Pods_Yoginni_YoginniUITests.framework */,
+				8B4F1844A9253D9CA3161B25 /* Pods_YoginniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA1A1ED726959D9F00E97B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1A1ED826959DA900E97B25 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		BA72C27A268ED45000BC5C46 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +139,8 @@
 				BA72C29C268ED45100BC5C46 /* YoginniTests */,
 				BA72C2A7268ED45100BC5C46 /* YoginniUITests */,
 				BA72C284268ED45100BC5C46 /* Products */,
+				4CE4FE3316AB7899054096C2 /* Pods */,
+				7AA4A583104196FE29DD9870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +157,8 @@
 		BA72C285268ED45100BC5C46 /* Yoginni */ = {
 			isa = PBXGroup;
 			children = (
+				BA1A1ED826959DA900E97B25 /* ViewModel */,
+				BA1A1ED726959D9F00E97B25 /* View */,
 				BA72C286268ED45100BC5C46 /* AppDelegate.swift */,
 				BA72C288268ED45100BC5C46 /* SceneDelegate.swift */,
 				BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */,
@@ -141,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA72C2AD268ED45100BC5C46 /* Build configuration list for PBXNativeTarget "Yoginni" */;
 			buildPhases = (
+				032DC1018814684CB2B737F0 /* [CP] Check Pods Manifest.lock */,
 				BA72C27F268ED45000BC5C46 /* Sources */,
 				BA72C280268ED45000BC5C46 /* Frameworks */,
 				BA72C281268ED45000BC5C46 /* Resources */,
+				3CFC37270ADF1A9062E71DF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA72C2B0268ED45100BC5C46 /* Build configuration list for PBXNativeTarget "YoginniTests" */;
 			buildPhases = (
+				3A70713F67D23BCC1C075324 /* [CP] Check Pods Manifest.lock */,
 				BA72C295268ED45100BC5C46 /* Sources */,
 				BA72C296268ED45100BC5C46 /* Frameworks */,
 				BA72C297268ED45100BC5C46 /* Resources */,
@@ -176,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA72C2B3268ED45100BC5C46 /* Build configuration list for PBXNativeTarget "YoginniUITests" */;
 			buildPhases = (
+				CEC1926C2A01365A7940F10A /* [CP] Check Pods Manifest.lock */,
 				BA72C2A0268ED45100BC5C46 /* Sources */,
 				BA72C2A1268ED45100BC5C46 /* Frameworks */,
 				BA72C2A2268ED45100BC5C46 /* Resources */,
+				9B2EB5564DFC14D0C69F8BA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +318,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032DC1018814684CB2B737F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yoginni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A70713F67D23BCC1C075324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoginniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFC37270ADF1A9062E71DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2EB5564DFC14D0C69F8BA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC1926C2A01365A7940F10A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yoginni-YoginniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA72C27F268ED45000BC5C46 /* Sources */ = {
@@ -433,6 +597,7 @@
 		};
 		BA72C2AE268ED45100BC5C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35658A66DA6806F66CCE932 /* Pods-Yoginni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +617,7 @@
 		};
 		BA72C2AF268ED45100BC5C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664D46361E15EE1E2B2905F1 /* Pods-Yoginni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +637,7 @@
 		};
 		BA72C2B1268ED45100BC5C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AA2FF36F4F7B12ACD25B51 /* Pods-YoginniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +660,7 @@
 		};
 		BA72C2B2268ED45100BC5C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04A39FBA78A649400E6403E /* Pods-YoginniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +683,7 @@
 		};
 		BA72C2B4268ED45100BC5C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64503069C04BE5BE0CAD9FDB /* Pods-Yoginni-YoginniUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +704,7 @@
 		};
 		BA72C2B5268ED45100BC5C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58711A4F3D7B248A4BD0C76E /* Pods-Yoginni-YoginniUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
