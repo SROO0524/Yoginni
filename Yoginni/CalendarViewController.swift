@@ -9,6 +9,7 @@ import UIKit
 import FSCalendar
 import SnapKit
 
+// 전체일지
 class CalendarViewController: UIViewController {
     
     var calendar = FSCalendar()

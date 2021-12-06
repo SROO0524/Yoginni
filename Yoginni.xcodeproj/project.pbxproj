@@ -20,6 +20,8 @@
 		BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */; };
 		BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */; };
 		C258109D80843785ECF6BF2B /* Pods_Yoginni_YoginniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2FFB5C4F0981E5FF28DA69 /* Pods_Yoginni_YoginniUITests.framework */; };
+		D5E78442275E6301009F7934 /* FindStudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78441275E6301009F7934 /* FindStudioViewController.swift */; };
+		D5E78444275E64B8009F7934 /* NoteCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78443275E64B8009F7934 /* NoteCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		C04A39FBA78A649400E6403E /* Pods-YoginniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoginniTests.release.xcconfig"; path = "Target Support Files/Pods-YoginniTests/Pods-YoginniTests.release.xcconfig"; sourceTree = "<group>"; };
 		D35658A66DA6806F66CCE932 /* Pods-Yoginni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni.debug.xcconfig"; path = "Target Support Files/Pods-Yoginni/Pods-Yoginni.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E78441275E6301009F7934 /* FindStudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindStudioViewController.swift; sourceTree = "<group>"; };
+		D5E78443275E64B8009F7934 /* NoteCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteCustomCell.swift; path = Yoginni/NoteCustomCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		BA1A1ED726959D9F00E97B25 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D5E78443275E64B8009F7934 /* NoteCustomCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				BA72C288268ED45100BC5C46 /* SceneDelegate.swift */,
 				BA72C28A268ED45100BC5C46 /* CalendarViewController.swift */,
 				BA72C2B8268EFF5700BC5C46 /* PracticeViewController.swift */,
+				D5E78441275E6301009F7934 /* FindStudioViewController.swift */,
 				BA72C2BA268EFFA000BC5C46 /* MypageViewController.swift */,
 				BA72C2B6268EEE3200BC5C46 /* MainTabBarController.swift */,
 				BA72C28F268ED45100BC5C46 /* Assets.xcassets */,
@@ -201,7 +207,7 @@
 				BA72C27F268ED45000BC5C46 /* Sources */,
 				BA72C280268ED45000BC5C46 /* Frameworks */,
 				BA72C281268ED45000BC5C46 /* Resources */,
-				3CFC37270ADF1A9062E71DF6 /* [CP] Embed Pods Frameworks */,
+				F45CC34F0502FBEA033BB962 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +245,7 @@
 				BA72C2A0268ED45100BC5C46 /* Sources */,
 				BA72C2A1268ED45100BC5C46 /* Frameworks */,
 				BA72C2A2268ED45100BC5C46 /* Resources */,
-				9B2EB5564DFC14D0C69F8BA5 /* [CP] Embed Pods Frameworks */,
+				0CAF641647565D319DC83A48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +348,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0CAF641647565D319DC83A48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3A70713F67D23BCC1C075324 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,40 +385,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CFC37270ADF1A9062E71DF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9B2EB5564DFC14D0C69F8BA5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni-YoginniUITests/Pods-Yoginni-YoginniUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CEC1926C2A01365A7940F10A /* [CP] Check Pods Manifest.lock */ = {
@@ -420,6 +409,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F45CC34F0502FBEA033BB962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yoginni/Pods-Yoginni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -427,12 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E78444275E64B8009F7934 /* NoteCustomCell.swift in Sources */,
 				BA72C28B268ED45100BC5C46 /* CalendarViewController.swift in Sources */,
 				BA72C287268ED45100BC5C46 /* AppDelegate.swift in Sources */,
 				BA72C2B7268EEE3200BC5C46 /* MainTabBarController.swift in Sources */,
 				BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */,
 				BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */,
 				BA72C289268ED45100BC5C46 /* SceneDelegate.swift in Sources */,
+				D5E78442275E6301009F7934 /* FindStudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
