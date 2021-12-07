@@ -22,6 +22,8 @@
 		C258109D80843785ECF6BF2B /* Pods_Yoginni_YoginniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2FFB5C4F0981E5FF28DA69 /* Pods_Yoginni_YoginniUITests.framework */; };
 		D5E78442275E6301009F7934 /* FindStudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78441275E6301009F7934 /* FindStudioViewController.swift */; };
 		D5E78444275E64B8009F7934 /* NoteCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78443275E64B8009F7934 /* NoteCustomCell.swift */; };
+		D5E78446275F7FF3009F7934 /* NoteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78445275F7FF3009F7934 /* NoteCollectionView.swift */; };
+		D5E78448275F8020009F7934 /* NoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E78447275F8020009F7934 /* NoteCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		D35658A66DA6806F66CCE932 /* Pods-Yoginni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yoginni.debug.xcconfig"; path = "Target Support Files/Pods-Yoginni/Pods-Yoginni.debug.xcconfig"; sourceTree = "<group>"; };
 		D5E78441275E6301009F7934 /* FindStudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindStudioViewController.swift; sourceTree = "<group>"; };
 		D5E78443275E64B8009F7934 /* NoteCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteCustomCell.swift; path = Yoginni/NoteCustomCell.swift; sourceTree = SOURCE_ROOT; };
+		D5E78445275F7FF3009F7934 /* NoteCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteCollectionView.swift; path = Yoginni/NoteCollectionView.swift; sourceTree = SOURCE_ROOT; };
+		D5E78447275F8020009F7934 /* NoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteCollectionViewCell.swift; path = Yoginni/NoteCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				D5E78443275E64B8009F7934 /* NoteCustomCell.swift */,
+				D5E78445275F7FF3009F7934 /* NoteCollectionView.swift */,
+				D5E78447275F8020009F7934 /* NoteCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -435,8 +441,10 @@
 			files = (
 				D5E78444275E64B8009F7934 /* NoteCustomCell.swift in Sources */,
 				BA72C28B268ED45100BC5C46 /* CalendarViewController.swift in Sources */,
+				D5E78448275F8020009F7934 /* NoteCollectionViewCell.swift in Sources */,
 				BA72C287268ED45100BC5C46 /* AppDelegate.swift in Sources */,
 				BA72C2B7268EEE3200BC5C46 /* MainTabBarController.swift in Sources */,
+				D5E78446275F7FF3009F7934 /* NoteCollectionView.swift in Sources */,
 				BA72C2BB268EFFA000BC5C46 /* MypageViewController.swift in Sources */,
 				BA72C2B9268EFF5700BC5C46 /* PracticeViewController.swift in Sources */,
 				BA72C289268ED45100BC5C46 /* SceneDelegate.swift in Sources */,
