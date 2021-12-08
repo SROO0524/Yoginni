@@ -23,11 +23,24 @@ class NoteCollectionViewCell: UICollectionViewCell {
         setLayout()
     }
     
+    override var isSelected: Bool {
+        didSet {
+            if isSelected {
+                cellImageView.tintColor = .systemBlue
+                label.textColor = .systemBlue
+            } else {
+                cellImageView.tintColor = .black
+                label.textColor = .black
+            }
+        }
+    }
+    
     func setLayout() {
+        contentView.tintColor = .systemBlue
         contentView.addSubview(cellImageView)
         contentView.addSubview(label)
-//        cellImageView.image = UIImage(systemName: "note.text")
         cellImageView.tintColor = .black
+        cellImageView.image?.withRenderingMode(.alwaysTemplate)
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 12)
         label.text = "수련일기"

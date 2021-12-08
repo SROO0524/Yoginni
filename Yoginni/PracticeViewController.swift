@@ -57,7 +57,10 @@ class PracticeViewController: UIViewController {
 }
 
 extension PracticeViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let findVC = FindStudioViewController()
+        navigationController?.pushViewController(findVC, animated: true)
+    }
 }
 
 extension PracticeViewController: UICollectionViewDataSource {
@@ -69,14 +72,14 @@ extension PracticeViewController: UICollectionViewDataSource {
         let cell = customCollectionView.dequeueReusableCell(withReuseIdentifier: "NoteCollectionViewCell", for: indexPath) as! NoteCollectionViewCell
         cell.label.text = data[indexPath.row]
         cell.cellImageView.image = imageData[indexPath.row]
+        cell.tintColor = UIColor.white
+        cell.cellImageView.image?.withRenderingMode(.alwaysTemplate)
         cell.layer.cornerRadius = 5
         cell.layer.borderWidth = 1
         cell.layer.borderColor = UIColor.black.cgColor
         cell.clipsToBounds = true
         return cell
     }
-    
-    
 }
 
 extension PracticeViewController: UICollectionViewDelegateFlowLayout {
